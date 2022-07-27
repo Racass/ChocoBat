@@ -29,3 +29,12 @@ So this command will check if C:\git exists, if not will create the directory. A
 
 - link: the .git link that should be cloned into the folder.
 
+### cpm 
+
+This creates a command that easily changes the branch of any repository. All you need to do is send the git repository name and the name of the branch you want to change.  
+For this to work, you first need to clone the repository using the "offspring" command. If you clone it in any other way, in any other folder it will not work.  
+
+#### Parameters
+
+- repo: the repository name that you want to change branch
+- branch: the name of the branch you want to change
