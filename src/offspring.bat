@@ -1,9 +1,10 @@
-@echo off
+
 
 set currFolder=%cd% 
-shift
+
 
 set link=%1
+shift
 shift
 
 if not exist "C:\git\" (
@@ -12,7 +13,7 @@ if not exist "C:\git\" (
 )
 
 cd C:\git
-
+echo %link%
 git clone %link%
 
 cd %currFolder%

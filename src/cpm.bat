@@ -1,14 +1,14 @@
 @echo off
 
 set currFolder=%cd% 
-shift
+
 
 set repo=%1
-shift
 
 set branch=%2
 shift
-
+shift
+shift
 if exist "C:\git\%repo%\" (
     cd C:\git\%repo%
 
