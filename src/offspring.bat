@@ -1,4 +1,4 @@
-
+@echo off
 
 set currFolder=%cd% 
 
