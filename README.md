@@ -38,3 +38,15 @@ For this to work, you first need to clone the repository using the "offspring" c
 
 - repo: the repository name that you want to change branch
 - branch: the name of the branch you want to change
+
+### metallica
+
+This command will simple execute an "git status" on the repo provided.  
+
+#### Example  
+
+metallica MeuRepositorio  
+
+#### Parameters  
+
+- repo: the repository name that you want to change branch  
