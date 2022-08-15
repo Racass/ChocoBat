@@ -18,11 +18,11 @@ IMPORTANT: you must run ironMaiden.bat from the git repository folder.
 
 ### ls
 
-I always get confuse if I'm on a windows or linux environment and end up using "ls" on windows. So I created a .bat file that will simply call dir everytime I ask for ls on windows. That's all.
+I always get confuse if I'm on a Windows or Linux environment and end up using "ls" on Windows. So I created a .bat file that will simply call dir every time I ask for ls on Windows. That's all.
 
 ### offspring
 
-I love to use C:\git to put all my git repositories. It's simple, and I always knows where to look.  
+I love to use C:\git to put all my git repositories. It's simple, and I always know where to look.  
 So this command will check if C:\git exists, if not will create the directory. After that will execute "git clone" to the link provided.
 
 #### Parameters
@@ -41,7 +41,7 @@ For this to work, you first need to clone the repository using the "offspring" c
 
 ### metallica
 
-This command will simple execute an "git status" on the repo provided.  
+This command will simply execute a "git status" on the repo provided.  
 
 #### Example  
 
@@ -50,3 +50,15 @@ metallica MeuRepositorio
 #### Parameters  
 
 - repo: the repository name that you want to change branch  
+
+### detonautas
+
+This command will open Visual Studio code on the provided repo.
+
+#### Example
+
+detonautas MyRepo
+
+#### Parameters
+
+- repo: the repository name that you want to open vscode
