@@ -62,3 +62,15 @@ detonautas MyRepo
 #### Parameters
 
 - repo: the repository name that you want to open vscode
+
+### metalHelp
+
+This command will show help.
+
+#### Parameters
+
+- command (optional): the command that you need help to.
+
+### angra
+
+This command will list all directories (repositories) that you have on C:\git
