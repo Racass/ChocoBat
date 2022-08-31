@@ -8,6 +8,12 @@ if "%command%"=="" (
     echo "This command will gave instructions on how to use our commands."
     echo "Parameters:"
     echo "       command (optional): the command that you need help to."
+    echo "command list:"
+    echo "       angra --- list"
+    echo "       cpm --- repo changer"
+    echo "       detonautas --- open code"
+    echo "       metallica --- repo status"
+    echo "       offspring --- cloner"
 ) else if "%command%"=="ls" (
     echo "Alias for dir calling."
 ) else if "%command%"=="offspring" (
